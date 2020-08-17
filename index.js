@@ -1,6 +1,3 @@
-/**
- * Created by tdzl2_000 on 2015-12-29.
- */
 import { NativeModules } from 'react-native';
 const native = NativeModules.HttpCache;
 
@@ -21,23 +18,3 @@ export async function getCacheSize(){
 export async function clearCache(){
   await Promise.all([clearHttpCache(), clearImageCache()]);
 }
-
-/**
- * 获取缓存
- * */
-// getcache() {
-//   CacheManager.getCacheSize().then((value) => {
-//       let size = Math.round((value / 1024 / 1024) * 100) / 100 + 'M';
-//       console.log(size);
-//   }, (erro) => {
-//       console.log(erro)
-//   });
-// }
-
-/**
-* 清除缓存
-* */
-// clean() {
-//   CacheManager.clearCache();
-//   this.getcache()
-// }
