@@ -1,6 +1,6 @@
 {
   "name": "react-native-orzhtml-httpcache",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Control http cache used by fetch/XMLHttpRequest",
   "main": "index.js",
   "scripts": {

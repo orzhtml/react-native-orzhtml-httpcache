@@ -1,4 +1,4 @@
-declare module "react-native-http-cache" {
+declare module "react-native-orzhtml-httpcache" {
   export function clearHttpCache(): Promise<void>;
   export function getHttpCacheSize(): Promise<number>;
   export function clearImageCache(): Promise<void>;
