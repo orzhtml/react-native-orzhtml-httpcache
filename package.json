@@ -1,0 +1,33 @@
+{
+  "name": "react-native-orzhtml-httpcache",
+  "version": "0.0.1",
+  "description": "Control http cache used by fetch/XMLHttpRequest",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/eslint/bin/eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orzhtml/react-native-orzhtml-httpcache.git"
+  },
+  "keywords": [
+    "react-native",
+    "ios",
+    "android",
+    "http",
+    "cache"
+  ],
+  "author": "orzhtml",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orzhtml/react-native-orzhtml-httpcache/issues"
+  },
+  "homepage": "https://github.com/orzhtml/react-native-orzhtml-httpcache#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-react": "^7.20.3"
+  }
+}
